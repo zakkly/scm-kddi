@@ -1,0 +1,162 @@
+.dropzone{
+min-height: auto;
+border: none;
+}
+
+.form-body,
+#search{
+display: flex;
+flex-wrap: wrap;
+}
+
+.widget .field{
+float: none;
+}
+
+
+input[type=text],
+input[type=number]{
+padding: 15px;
+font-size: 14px;
+margin-bottom: 0;
+}
+
+
+textarea{
+height: 100px;
+}
+
+
+.submit{
+text-align: center;
+}
+
+
+#search .field{
+float: left;
+}
+
+
+#searchResult{
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+}
+
+#searchResult .items{
+width: 15%;
+text-align: center;
+margin: 0 1% 1% 0;
+cursor: pointer;
+position: relative;
+padding: 5px;
+border:dashed 2px #eee;
+background: #f1f1f1;
+}
+
+#searchResult .items.on{
+border:dashed 2px #00ba8b;
+background: #b7f7e7;
+}
+
+#searchResult .items i{
+font-size: 220%;
+color: #00ba8b;
+position: absolute;
+top:0;
+right: 0;
+}
+
+#searchResult .items:hover{
+opacity: .5;
+}
+
+#searchResult .number,
+#searchResult .delete,
+#searchResult .day,
+#searchResult .person{
+display: none;
+}
+
+
+#searchResult .items img{
+}
+
+#searchResult .items .img{
+}
+#searchResult .items .name{
+}
+
+
+
+#ItemsSet{
+margin: 30px 0;
+}
+
+#ItemsSet .items{
+display: flex;
+align-items: center;
+border-bottom: solid 1px #eee;
+width: 100%;
+}
+
+#ItemsSet .items i.fa-check-circle{display: none;}
+#ItemsSet .items img{width: 100%;}
+#ItemsSet .items .img{width: 7%; padding: 0 3px;}
+#ItemsSet .items .name{width: 13%; padding: 0 3px;}
+#ItemsSet .items .num{width: 7%; text-align: center; padding: 0 3px;}
+#ItemsSet .items .num span{display: block;background: #f5a732; border-radius: 25px; text-align: center; margin: 0 auto;}
+#ItemsSet .items .comment{width: 38%; padding: 0 3px;}
+#ItemsSet .items .check{
+border: solid 1px #21a9ec;
+border-radius: 20px;
+display: block;
+padding: 5px 20px;
+color: #21a9ec;
+margin: 0 10px 0 0;
+}
+
+#ItemsSet .items .check.on{
+background: #21a9ec;
+color: #fff;
+}
+
+#ItemsSet .items .check input{
+display: none;
+}
+  
+
+.modal{
+width: 80%;
+left: 10%;
+height: 80%;
+top:-100% !important;
+margin-left: 0;
+}
+.modal.fade.in {
+top:30% !important;
+}
+.modal-body{
+max-height: initial;
+max-height: auto;
+height: 100%;
+}
+
+.login-fields{
+display: flex;
+flex-wrap: wrap;
+}
+
+.login-fields .field{
+width: 30%;
+}
+
+.login-fields .field.text,
+.login-fields .field.image,
+.login-fields .field.textarea{
+width: 100%;
+}
+
+.login-fields .field.textarea textarea{
+height: 100px;
+}

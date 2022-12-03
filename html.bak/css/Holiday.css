@@ -1,0 +1,14 @@
+.calOut{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.calbox{
+width: 30%;
+<<<<<<< HEAD
+}
+
+=======
+}
+>>>>>>> 84382b37247883d8c5c4d17ea2f1a0d61d475b8b

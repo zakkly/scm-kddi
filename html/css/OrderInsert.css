@@ -1,0 +1,413 @@
+ul.tab{
+list-style: none;
+display: flex;
+padding: 0;
+margin: 0;
+}
+
+ul.tab li{
+padding: 10px 20px;
+cursor: pointer;
+margin-right: 20px;
+background: #fff;
+border: solid 1px #eee;
+border-bottom: 0;
+}
+
+ul.tab li.on{
+background: #FAFAFA;
+}
+
+.search{
+padding: 20px;
+box-sizing: border-box;
+border-radius: 4px 0 0 0;
+background: #E9E9E9;
+background: -moz-linear-gradient(top, #FAFAFA 0%, #E9E9E9 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FAFAFA), color-stop(100%,#E9E9E9));
+background: -webkit-linear-gradient(top, #FAFAFA 0%,#E9E9E9 100%);
+background: -o-linear-gradient(top, #FAFAFA 0%,#E9E9E9 100%);
+background: -ms-linear-gradient(top, #FAFAFA 0%,#E9E9E9 100%);
+background: linear-gradient(top, #FAFAFA 0%,#E9E9E9 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FAFAFA', endColorstr='#E9E9E9');
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#FAFAFA', endColorstr='#E9E9E9')";
+display: none;
+border: solid 1px #eee;
+margin-bottom: 30px;
+}
+
+.search.on{
+display: block;
+}
+
+
+#SearchResult{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+box-sizing: border-box;
+padding: 10px;
+background: #f1f1f1;
+width: 100%;
+}
+
+
+article:before,
+article:after{
+content: "";
+display: table;
+clear: both;
+}
+
+
+#SearchResult .items{
+width: 19%;
+text-align: center;
+cursor: pointer;
+position: relative;
+padding: 5px;
+box-sizing: border-box;
+border:dashed 2px #eee;
+background: #fff;
+}
+
+#SearchResult .items.on{
+border:dashed 2px #00ba8b;
+background: #b7f7e7;
+}
+
+#SearchResult .items img{
+width: 100%;
+}
+
+#SearchResult .items i{
+font-size: 220%;
+color: #00ba8b;
+position: absolute;
+top:0;
+right: 0;
+}
+
+#SearchResult .items:hover{
+opacity: .5;
+}
+
+
+.progress{
+background: none;
+border: 0;
+box-shadow: none;
+}
+
+.tab-page{
+display: none;
+}
+
+.widget-table tr{
+cursor: pointer;
+}
+
+.widget-table tr:hover td{
+background: #ffc;
+}
+.widget-table tr.on td{
+background: #b7f7e7 !important;
+}
+
+
+.finish i{
+font-size: 100px;
+background: #19bc9c;
+padding: 30px;
+border-radius: 50%;
+color: #fff;
+margin: 30px 0;
+}
+
+.comfirm{
+text-align: center;
+}
+
+.comfirm p{
+font-size: 36px;
+font-weight: bold;
+color: #19bc9c;
+}
+.comfirm i{
+color: #fff;
+background:#19bc9c;
+border-radius: 50%;
+padding: 30px;
+font-size: 64px; 
+}
+
+.register{
+display: none;
+}
+
+.nav-justified>li{
+width: auto;
+}
+
+/*NumhResult*/
+
+#NumhResult{
+}
+
+#NumhResult article{
+  margin-bottom: 20px;
+background: #fff;
+}
+
+#NumhResult .body{
+padding: 20px;
+}
+
+#Other header.h,
+#NumhResult header.h{
+display: table;
+width: 100%;
+background: #ef450e;
+}
+
+#NumhResult header.h li:nth-of-type(2){
+display: none;
+}
+
+#Other article h1,
+#NumhResult article h1{
+font-size: 120%;
+color: #fff;
+padding: 0 20px;
+width: 50%;
+display: table-cell;
+}
+
+#Other article h1 span,
+#NumhResult article h1 span{
+font-size: 80%;
+margin-right: 10px;
+}
+#Other article h1 em,
+#NumhResult article h1 em{
+font-style: normal;
+}
+#Other article .h ul,
+#NumhResult .h ul{
+list-style: none;
+display: table-cell;
+}
+
+#NumhResult .h ul{
+display: flex;
+}
+
+#Other article .h li,
+#NumhResult .h li{
+color: #fff;
+line-height: 1;
+height: auto;
+    padding: 0 20px;
+}
+
+#Other .cont,
+#NumhResult .cont{
+list-style: none;
+}
+
+#Other .cont li,
+#Other .cont .detail,
+#NumhResult .cont li,
+#NumhResult .cont .detail{
+display: flex;
+align-items: center;
+}
+
+#Other  .detail li,
+#NumhResult .detail li {
+border: solid 1px #21a9ec;
+border-radius: 20px;
+display: block;
+padding: 5px 20px;
+color: #21a9ec;
+margin: 0 10px 0 0;
+}
+#Other .items,
+#NumhResult .items img{
+width: 50px;
+}
+
+
+#NumhResult .items h2{
+font-size: 16px;
+padding: 10px;
+border-bottom: solid 1px #f1f1f1;
+margin-bottom: 10px;
+}
+
+#SearchResult .items .title{
+font-weight: bold;
+margin-top: 10px;
+}
+
+
+#SearchResult .items .demo,
+#SearchResult .items .ttl,
+#NumhResult .items .ttl{
+border: solid 1px #cd2866;
+border-radius: 40px;
+display: inline-block;
+padding: 5px 20px;
+color: #cd2866;
+margin: 0 10px 0 0;
+box-sizing: border-box;
+width: 120px;
+text-align: center;
+}
+
+#SearchResult .items.sets .ttl,
+#NumhResult .items.sets .ttl{
+color: #cd9928;
+border-color: #cd9928;
+}
+
+#SearchResult .items .demo{
+display: block;
+width: 100%;
+margin: 10px 0;
+color: #fff;
+padding: 5px 10px;
+}
+
+
+#SearchResult .items .num{
+margin: 10px 0;
+}
+
+#SearchResult .items .demo.type1{
+border-color: #47cd28;
+background: #47cd28;
+}
+#SearchResult .items .demo.type2{
+border-color: #28cda4;
+background-color: #28cda4;
+}
+#SearchResult .items .demo.type0{
+border-color: #cd2881;
+background-color: #cd2881;
+}
+
+#NumhResult .items .number{
+text-align: right;
+display: inline-block;
+width: 70%;
+float: right;
+}
+
+
+
+
+
+
+
+
+
+header .form-group{
+display: flex;
+}
+
+header .form-group *{
+line-height: 36px;
+}
+
+header .form-group label{
+color: #fff;
+}
+
+header .form-group input{
+margin-top: 5px;
+padding: 5px;
+height: 32px;
+}
+
+
+
+
+
+.box{
+display: flex;
+align-items: center;
+margin: 10px 0;
+padding: 10px 0;
+border-bottom: solid 1px #ccc;
+}
+
+.box .titleName{
+width: 10%;
+text-align: center;
+border-radius: 10px;
+background-color: #91840c;
+vertical-align: middle;
+color: #fff;
+}
+
+.box .number input{
+font-size: 18px;
+padding: 20px;
+}
+
+
+.box .titleName.set{
+background-color: #840c91;
+}
+
+.box .itemBox{
+padding-left: 20px;
+}
+.box .itemBox li{
+list-style: none;
+}
+
+
+.hide{
+display: none;
+}
+.box .input{
+background: #00c;
+color: #fff;
+font-size: 120%;
+font-weight: bold;
+border-radius: 50%;
+padding: 10px;
+margin: 0 20px ;
+}
+
+.day.icon,
+.person.icon{
+border: solid 1px #21a9ec;
+border-radius: 20px;
+padding: 5px 20px;
+color: #21a9ec;
+margin: 0 10px 0 0;
+background: #21a9ec;
+color: #fff;
+}
+
+.num_rows select{
+width:  80px;
+}
+
+.stock-chk-item{
+padding-left: 120px;
+margin-bottom: 20px;
+}
+
+#NumhResult .stock .stock{
+font-size: 10px;
+padding: 5px 20px;
+}
+
+
+#NumhResult input[type=number]{
+width: 100px;
+}

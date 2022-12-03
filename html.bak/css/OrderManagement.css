@@ -1,0 +1,192 @@
+.scroll-table {
+overflow: auto;
+white-space: nowrap;
+}
+
+.table tr{
+cursor: pointer;
+}
+
+.table tr:hover td{
+background: #fee !important;
+opacity: .5;
+}
+
+.status{
+display: block;
+padding: 5px;
+border-radius: 3px;
+}
+
+.modal{
+width: 80%;
+left: 30%;
+}
+.modal.fade.in{
+height: 80%;
+top:30%;
+}
+.modal-body{
+max-height: initial;
+max-height: auto;
+height:100%;
+}
+
+
+
+.modal-body .box{
+margin-top: 20px;
+}
+
+.modal-body .box header{
+background: #f1f1f1;
+padding: 5px;
+}
+.modal-body .box header h1{
+text-align: center;
+color: #444;
+padding: 0;
+margin: 0;
+font-size: 100%;
+}
+
+
+.modal-body .box .body{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+}
+
+.modal-body .box.itemns .body{
+justify-content: start;
+align-items: flex-start;
+}
+
+.modal-body .box .body dl{
+width: 50%;
+display: flex;
+margin: 0;
+margin-top: 5px;
+padding-top: 5px;
+border-top: solid 1px #f1f1f1;
+}
+
+.modal-body .box .body dt,
+.modal-body .box .body dd{
+padding: 10px;
+}
+.modal-body .box .body dt{
+background: #f1f1f1;
+width: 30%;
+}
+
+.statusChange ul{
+display: flex;
+width: 100%;
+justify-content: space-between;
+margin-top: 40px;
+}
+
+.statusChange li{
+text-align: center;
+width: 30%;
+padding: 20px 0;
+vertical-align: middle;
+font-size: 200%;
+font-weight: bold;
+cursor: pointer;
+}
+.statusChange li:hover{
+opacity: .5;
+}
+
+
+.statusChange li:nth-of-type(1){
+cursor: default;
+position: relative;
+}
+
+.statusChange li:nth-of-type(1):after{
+content: "現在のステータス";
+position: absolute;
+top:-40%;
+left: 0;
+font-size:60%;
+text-align: center;
+display: block;
+width: 100%;
+background: #222;
+padding: 5px;
+box-sizing: border-box;
+border-radius: 5px;
+}
+
+.statusChange li:nth-of-type(1):hover{
+opacity: 1;
+}
+
+.itemns .items{
+text-align: center;
+}
+
+.items .ttl{
+border: solid 1px #cd2866;
+border-radius: 20px;
+display: inline-block;
+padding: 5px 20px;
+color: #cd2866;
+box-sizing: border-box;
+margin: 0 auto;
+}
+
+.sets .ttl{
+color: #cd9928;
+border-color: #cd9928;
+}
+
+.OrderSheet{
+text-align: center;
+}
+
+.OrderSheet h1{
+font-size: 200%;
+font-weight: bold;
+background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(33, 169, 236, 0)), color-stop(100%, rgba(1, 9, 13, 0.1)));
+background-image: -webkit-linear-gradient(rgba(33, 169, 236, 0), rgba(1, 9, 13, 0.1));
+background-image: -moz-linear-gradient(rgba(33, 169, 236, 0), rgba(1, 9, 13, 0.1));
+background-image: -o-linear-gradient(rgba(33, 169, 236, 0), rgba(1, 9, 13, 0.1));
+background-image: linear-gradient(rgba(33, 169, 236, 0), rgba(1, 9, 13, 0.1));
+background-color: #21a9ec;
+border-color: #1399dc #1399dc #0d6895;
+border-color: rgba(0, 0, 0, 0.05) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.15);
+color: white;
+text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.15);
+*background-color: #1399dc;
+padding: 20px 0;
+cursor: pointer;
+}
+
+.OrderSheet h1:hover{
+opacity: .5;
+}
+
+.btn-close{font-size: 200%;
+font-weight: bold;
+background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(33, 169, 236, 0)), color-stop(100%, rgba(1, 9, 13, 0.1)));
+background-image: -webkit-linear-gradient(rgba(33, 169, 236, 0), rgba(1, 9, 13, 0.1));
+background-image: -moz-linear-gradient(rgba(33, 169, 236, 0), rgba(1, 9, 13, 0.1));
+background-image: -o-linear-gradient(rgba(33, 169, 236, 0), rgba(1, 9, 13, 0.1));
+background-image: linear-gradient(rgba(33, 169, 236, 0), rgba(1, 9, 13, 0.1));
+background-color: #21a9ec;
+border-color: #1399dc #1399dc #0d6895;
+border-color: rgba(0, 0, 0, 0.05) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.15);
+color: white;
+text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.15);
+*background-color: #1399dc;
+padding: 20px 0;
+cursor: pointer;
+width: 100%;
+margin: 0 auto;
+
+}

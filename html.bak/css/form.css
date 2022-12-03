@@ -1,0 +1,48 @@
+.widget .field{
+display: flex;
+align-items: center;
+float: left;
+width: 30%;
+padding-bottom: 20px;
+}
+
+.widget .field label{
+width: 25%;
+}
+
+
+.widget .field.image,
+.field.textarea,
+textarea{
+width: 100%;
+}
+
+
+.drag-and-drop-area {
+color: #00ba8b;
+min-height: 100px;
+width: 100%;
+border-style: dashed;
+border-width: 2px;
+line-height: 100px;
+text-align: center;
+cursor: pointer;
+}
+
+.drag-and-drop-area-over {
+border-color: #0000FF;
+}
+
+.drag-and-drop-area-over span {
+opacity: 0.2;
+}
+
+.drag-and-drop-area-out {
+border-color: #00ba8b;
+}
+
+.drag-and-drop-area-out span {
+opacity: 1;
+}
+
+

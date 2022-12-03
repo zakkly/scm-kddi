@@ -1,0 +1,32 @@
+.form-body{
+display: flex;
+flex-wrap: wrap;
+}
+
+.widget .field{
+float: none;
+}
+
+.field.name,
+.field.name input{
+width: 100%;
+}
+
+input[type=text],
+input[type=number]{
+padding: 15px;
+font-size: 14px;
+}
+
+textarea{
+height: 100px;
+}
+
+.dropzone{
+min-height: auto;
+border: none;
+}
+
+.submit{
+text-align: center;
+}

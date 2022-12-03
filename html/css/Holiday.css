@@ -1,0 +1,84 @@
+.calOut{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.calbox{
+width: 30%;
+}
+
+
+/*
+===================================================================
+
+calendar
+
+===================================================================
+*/
+.cal{
+width: 100%;
+border-left: solid 1px #ccc;
+border-top: solid 1px #ccc;
+}
+
+.cal .week{
+width: 100%;
+display: flex;
+}
+
+
+.week dl{
+width: 14.1%;
+border-collapse: collapse;
+border-right: solid 1px #ccc;
+border-bottom: solid 1px #ccc;
+background: #f1f1f1;
+min-height:50px;
+margin: 0;
+cursor: pointer;
+}
+.week dl:hover{
+opacity: .5;
+}
+
+
+.week .sun dt{
+color: #c00;
+}
+.week .sat dt{
+color: #00c;
+}
+.week .sun,
+.week .sat,
+.week .hol,
+.week .closing{
+background: #fcc;
+}
+
+.week dl.yokohama{
+background: rgba(65,105,225,.2);
+cursor: pointer;
+}
+
+.week dl.on:hover{
+opacity: .5;
+}
+
+.week dl.jinguu{
+background: rgba(60,179,113,.2);
+}
+.week dl.tokyodome{
+background: rgba(255,165,0,.2);
+}
+
+.week dl span{
+font-size: 12px;
+display: block;
+}
+.week dl span.order{
+padding: 3px;
+background: #fc0;
+border-radius: 3px;
+font-style: normal;
+}

@@ -1,0 +1,1 @@
+select * from Category as c WHERE  (c.parent=23) order by code

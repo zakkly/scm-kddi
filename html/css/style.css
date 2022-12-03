@@ -1,0 +1,298 @@
+*{
+margin: 0;
+padding: 0;
+font-size: 1em;
+font-family: "メイリオ", sans-serif;
+}
+
+ul, ol{
+margin: 0;
+}
+
+.dropzone{
+border: 0 !important;
+}
+
+
+.dropzone .field{
+display: table;
+width: 100%;
+margin-bottom: 20px;
+align-items: center;
+border: solid 1px #ccc;
+}
+
+.dropzone .field .header_label{
+width: 20%;
+display: table-cell;
+background: #f1f1f1;
+vertical-align: middle;
+text-align: center;
+font-size: 80%;
+padding: 20px 0;
+height: 100%;
+}
+
+.dropzone .field .form_parts_body{
+vertical-align: middle;
+display: table-cell;
+padding: 0 20px;
+}
+
+.form_parts_body>select {
+cursor: pointer;
+display: block;
+border: 1px solid #c5c6ca;
+z-index: 2;
+background-color: transparent;
+position: relative;
+-webkit-outline: 0;
+-moz-outline: 0;
+-ms-outline: 0;
+-o-outline: 0;
+outline: none;
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+height: 100%;
+padding: 6px 20px 6px 12px;
+border-radius: 4px;
+box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+}
+
+.form_parts_body>input[type=password],
+.form_parts_body>input[type=text],
+.form_parts_body>input[type=number],
+.form_parts_body>input[type=date],
+#NumhResult input[type=number]{
+
+outline: none;
+color: #555;
+background-color: #fff;
+min-height: 34px;
+height: 34px;
+padding: 6px 12px;
+font-size: 14px;
+background-image: none;
+border: 1px solid #c5c6ca;
+border-radius: 4px;
+box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form_parts_body>input[type=text]{
+width: 100%;
+}
+
+
+.form_parts_body>textarea{
+width: 100%;
+height: 60px;
+outline: none;
+color: #555;
+background-color: #fff;
+padding: 6px 12px;
+font-size: 14px;
+background-image: none;
+border: 1px solid #c5c6ca;
+border-radius: 4px;
+box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+
+#drag-area{
+color: #ef450e;
+min-height: 100px;
+width: 100%;
+border-style: dashed;
+border-width: 2px;
+line-height: 100px;
+text-align: center;
+cursor: pointer;
+margin: 20px 0;
+}
+
+.progress{
+padding: 20px 0;
+background-color: transparent;
+}
+.progress progress {
+height: 20px;
+overflow: hidden;
+background-color: #f5f5f5;
+border-radius: 4px;
+-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+width: 80%;
+}
+
+
+
+.drag-and-drop-area {
+color: #ef450e;
+min-height: 100px;
+width: 100%;
+border-style: dashed;
+border-width: 2px;
+line-height: 100px;
+text-align: center;
+cursor: pointer;
+}
+
+.drag-and-drop-area-over {
+border-color: #0000FF;
+}
+
+.drag-and-drop-area-over span {
+opacity: 0.2;
+}
+
+.drag-and-drop-area-out {
+border-color: #ef450e;
+}
+
+.drag-and-drop-area-out span {
+opacity: 1;
+}
+
+
+
+
+
+#FormArea{
+padding: 20px;
+background: #f7e3de;
+margin: 20px 0;
+border-radius: 10px;
+}
+
+.download{
+margin-bottom: 20px;
+}
+
+#FormArea{
+display: none;
+}
+
+
+.progress{
+padding: 20px;
+}
+
+.progress progress{
+background-color: #ddab9d;
+}
+
+
+
+
+.modal{
+width: 70%;
+height: 70%;
+-webkit-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+margin: 0;
+}
+
+.modal.fade{
+top:-100%;
+overflow: visible;
+}
+
+.modal-body{
+max-height: 100%;
+}
+
+.modal-dialog{
+overflow-y: hidden;
+height: 100%;
+}
+
+
+
+.modal .login-actions {
+position: absolute;
+left: 50%;
+top: calc(100% - 40px);
+z-index: 100;
+transform: translate(-50%, 0);
+}
+
+
+.modal .login-actions .btn-primary{
+width: 80px;
+height: 80px;
+line-height: 100%;
+border-radius: 50%;
+color: #fff;
+font-weight: bold;
+text-align: center;
+-webkit-box-shadow: 0 3px 7px rgb(0 0 0 / 30%);
+-moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+box-shadow: 0 3px 7px rgb(0 0 0 / 30%);
+-webkit-background-clip: padding-box;
+-moz-background-clip: padding-box;
+}
+
+
+
+.modal select{
+height: auto;
+}
+
+
+
+#statusView{
+list-style: none;
+display: flex;
+width: 100%;
+justify-content: space-between;
+margin: 0;
+}
+
+
+#statusView li{
+width: 12%;
+text-align: center;
+color: #fff;
+padding: 20px 0;
+cursor: pointer;
+}
+
+#statusView li:hover{
+opacity: .5;
+}
+
+#statusView li .num{
+font-weight: bold;
+font-size: 200%;
+display: block;
+margin-top: 10px;
+display: block;
+}
+#statusView li .num em{
+font-style: normal;
+font-weight: normal;
+font-size: 80%;
+}
+#statusView li:nth-of-type(1),.status0{background: #2C3E50 !important; color: #fff;}
+#statusView li:nth-of-type(2),.status1{background: rgba(247,202,24,.8) !important; color: #222;}
+#statusView li:nth-of-type(3),.status2{background: #3598dc !important; color: #fff;}
+#statusView li:nth-of-type(4),.status3{background: rgba(68,182,174,.8) !important; color: #fff;}
+#statusView li:nth-of-type(5),.status4{background: #8775a7 !important; color: #fff;}
+#statusView li:nth-of-type(6),.status5{background: #e7505a !important; color: #fff;}
+
+
+
+.download a{
+color: #fff;
+}
+
+
+
+
+.OtherDetail select{
+background: #fff;
+height: auto;
+}

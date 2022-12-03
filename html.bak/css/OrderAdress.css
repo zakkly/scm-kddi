@@ -1,0 +1,14 @@
+#FormArea{
+padding: 20px;
+background: #f1f1f1;
+margin: 20px 0;
+border-radius: 10px;
+}
+
+.download{
+margin-bottom: 20px;
+}
+
+#FormArea{
+display: none;
+}

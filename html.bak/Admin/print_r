@@ -1,0 +1,110 @@
+Array
+(
+    [mode] => modal
+    [code] => 40
+    [status] => 1
+    [d] => Array
+        (
+            [name] => 
+            [title] => pTLc1K
+            [code] => 40
+            [user] => ビシエド ダヤン
+            [regist] => 2020-09-17 17:23:21
+            [adress] => 16東京都青ヶ島村青ヶ島村11111
+            [status] => 新規受注
+            [GroupIdList] => 32
+            [token] => 53b1b7d49cfc7af796518e895708f34144cf1059
+            [action] => Admin/OrderInsert
+            [mode] => new
+            [items] => Array
+                (
+                    [11] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [name] => 日輪刀
+                                    [title] => 
+                                    [code] => 11
+                                    [GroupIdList] => 32
+                                    [category] => undefined
+                                    [sub_category] => 
+                                    [unit] => 1
+                                    [demo] => 1
+                                    [img] => 5f3f229165370.jpg
+                                    [comment] => 日の呼吸
+                                    [stock] => 1
+                                    [minimum] => 1
+                                    [damaged] => 0
+                                    [lost] => 0
+                                    [item_status] => 1
+                                    [token] => 674eb389d8bee15ce77f7c6deefed778b1bbc093
+                                    [action] => Goods/ItemRegister
+                                    [mode] => new
+                                    [number] => 1
+                                )
+
+                        )
+
+                )
+
+            [sets] => Array
+                (
+                    [1] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [name] => 
+                                    [title] => セット商品TESTING
+                                    [code] => 1
+                                    [demo] => 2
+                                    [img] => 5f362b0542dc4.jpg
+                                    [items] => Array
+                                        (
+                                            [1] => 1
+                                            [2] => 2
+                                        )
+
+                                    [comment] => セット商品こめんとだよー
+                                    [token] => a2a1262f301b4169301717fdb5ca0355cfc01c9a
+                                    [GroupIdList] => 32
+                                    [category] => 23
+                                    [sub_category] => 24
+                                    [order] => 
+                                    [day] => 
+                                    [person] => 
+                                    [order____1] => 503
+                                    [order____2] => 23
+                                    [mode] => edit
+                                    [action] => Group/RegisterSetForm
+                                    [day____1] => 1
+                                    [person____2] => 1
+                                    [number] => 1
+                                )
+
+                        )
+
+                )
+
+            [demo] => 販促品
+            [LeadTime] => 1
+            [number____1____sets] => 1
+            [number____11____items] => 1
+            [OrderPerson] => 12
+            [OrderDates] => 12
+            [OrderPlace] => 123
+            [OrderEnter] => 345
+            [OrderStool] => あり
+            [OrderDate] => 2020-09-19
+            [OrderImplementation] => 2020-09-20
+            [SlipNumber] => 444-3333-2222
+            [OrderTime] => 2
+            [status_type] => 0
+            [Order] => 
+            [adressName] => 鱗滝左近次 
+            [zip] => 
+            [adressTel] => 
+            [demo_type] => 1
+            [Company] => 鬼滅の社
+        )
+
+)

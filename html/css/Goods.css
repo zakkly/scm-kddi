@@ -1,0 +1,206 @@
+#SearchResult{
+border-collapse: collapse;
+}
+
+#SearchResult{
+}
+
+.dataObj{
+}
+
+.dataObj:nth-of-type(even) td{
+background: #fff;
+}
+
+
+.dataObj td{
+border: solid 1px #eee;
+padding: 10px;
+}
+
+
+.dataObj td.img{
+width: 10%;
+}
+
+.dataObj td.img img{
+width: 100%;
+}
+
+.dz-image img{
+width: 120px;
+}
+
+.dataObj span.viewBtn{
+display: inline-block;
+padding: 5px 10px;
+border-radius: 40px;
+border: solid 1px rgba(239, 69, 14,.2);
+background-color: rgba(239, 69, 14,.3);
+margin: 0 10px 10px 0;
+}
+
+.download {
+background: #19bc9c;
+margin-bottom: 20px;
+}
+
+
+.download a {
+color: #fff;
+}
+
+
+td .sub{
+display: block;
+padding: 8px;
+margin-top: 16px;
+border-top: solid 1px #eee;
+padding-left: 50px;
+}
+
+td .sub .btn-icon-only{
+font-size: 120%;
+padding: 0;
+}
+
+.action-table .sub .btn-small{
+padding: 0 9px;
+}
+
+
+
+.ItemSearch{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+box-sizing: border-box;
+background: #f1f1f1;
+padding: 10px;
+}
+
+.ItemSearch .items{
+width: 24%;
+box-sizing: border-box;
+padding: 10px;
+background: #fff;
+margin-bottom: 10px;
+position: relative;
+}
+
+
+.ItemSearch .items.on{
+border: dashed 2px #00ba8b;
+background: #b7f7e7;
+}
+
+.ItemSearch .items i {
+font-size: 220%;
+color: #00ba8b;
+position: absolute;
+top: 0;
+right: 0;
+}
+
+.ItemSearch .items .name{
+font-size: 110%;
+font-weight: bold;
+margin: 5px 0;
+}
+
+.ItemSearch .items img{
+width: 100%;
+}
+
+.ItemSearch .items .img{
+margin-bottom: 10px;
+}
+
+.ItemSearch .number,
+.ItemSearch .delete,
+.ItemSearch .day,
+.ItemSearch .person{
+display: none;
+}
+
+
+.ItemSearch .num span{
+font-size: 10px;
+background: #19bc9c;
+color: #fff;
+padding: 3px 10px;
+display: inline-block;
+border-radius: 30px;
+margin-right: 10px;
+}
+
+.ItemSearch .comment{
+margin: 5px 0;
+}
+
+
+
+
+#ItemsSet{
+margin: 30px 0;
+}
+
+#ItemsSet .items{
+display: flex;
+align-items: center;
+border-bottom: solid 1px #eee;
+width: 100%;
+}
+
+#ItemsSet .items i.fa-check-circle{display: none;}
+#ItemsSet .items img{width: 100%;}
+#ItemsSet .items .img{width: 7%; padding: 0 3px;}
+#ItemsSet .items .name{width: 13%; padding: 0 3px;}
+#ItemsSet .items .num{width: 7%; text-align: center; padding: 0 3px;}
+#ItemsSet .items .num span{display: block;background: #f5a732; border-radius: 25px; text-align: center; margin: 0 auto;}
+#ItemsSet .items .comment{width: 38%; padding: 0 3px;}
+#ItemsSet .items .check{
+border: solid 1px #21a9ec;
+border-radius: 20px;
+display: block;
+padding: 5px 20px;
+color: #21a9ec;
+margin: 0 10px 0 0;
+}
+
+#ItemsSet .items .check.on{
+background: #21a9ec;
+color: #fff;
+}
+
+#ItemsSet .items .check input{
+display: none;
+}
+
+#ItemsSet input[type=number] {
+width: 80px;
+}
+
+#ItemsSet input[type=text],
+#ItemsSet input[type=number] {
+padding: 15px;
+font-size: 14px;
+margin-bottom: 0;
+}
+
+
+#SearchResult .num{
+text-align: right;
+}
+#SearchResult .stock .num,
+#ItemsSet .stock .num{
+font-size: 80%;
+width: 50%;
+margin-bottom: 10px;
+text-align: left;
+}
+#SearchResult .stock,
+#ItemsSet .stock{
+display: flex;
+flex-wrap: wrap;
+}
